@@ -15,7 +15,7 @@ function Home() {
 
     return(
         <div className="container">
-            <h2 className="mt-3">Crud App With JSON Server</h2>
+            <h2 className="mt-3">Crud App With React-Redux</h2>
             <Link to='/create' className="btn btn-success my-3">Create</Link>
             <table className="table">
                 <thead>
