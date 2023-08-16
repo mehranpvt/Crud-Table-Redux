@@ -20,6 +20,7 @@ function Create() {
         }));
         navigate('/')
     }
+    
   return (
     <div className='d-flex w-100 vh-100 justify-content-center align-items-center'>
         <div className='w-50 border bg-secondary text-white p-5'>
@@ -35,7 +36,7 @@ function Create() {
                     <input type="email" name="email" placeholder="enter Email" className='form-control' 
                     onChange={e => setEmail(e.target.value)}/>
                 </div><br />
-                <button class="btn btn-info">Submit</button>
+                <button className="btn btn-info">Submit</button>
             </form>
         </div>
     </div>

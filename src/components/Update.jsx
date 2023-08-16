@@ -13,11 +13,11 @@ function Update() {
     const dispatch = useDispatch();
     const navigate = useNavigate();
 
-    const handleNameChange = (event) => {
+    function handleNameChange(event) {
         setName(event.target.value);
     };
     
-    const handleEmailChange = (event) => {
+    function handleEmailChange(event) {
         setEmail(event.target.value);
     };
     
